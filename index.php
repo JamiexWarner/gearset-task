@@ -212,7 +212,7 @@
                     <p>Learn how to deploy faster, ship fewer bugs and release more often. Join our weekly 30-minute demo with product experts who will showcase key Gearset features.</p>
                 </div>
                 <div class="cta-holder">
-                    <form action="mailto:jamieltw99@gmail.com@gmail.com" method="post" enctype="text/plain">
+                    <form action="mailto:team@gearset.com" method="post" enctype="text/plain">
                         <input class="btn blue" type="submit" value="Get in touch">
                     </form>
                 </div>
