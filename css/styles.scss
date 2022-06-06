@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "sofia-pro-soft", sans-serif;
+}
+
+.max-width {
+    max-width: 1175px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 18px;
+    opacity: 1;
+    color: rgba(22, 29, 91, 1);
+    font-family: "sofia-pro-soft", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.26px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 40px;
+    background: #fff;
+    border-radius: 28px;
+
+    &.blue {
+        background: rgba(22, 29, 91, 1);
+        color: #fff;
+        font-size: 20px;
+        padding: 16px 58px;
+    }
+}
+
+.navigation-wrapper {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    padding-top: 32px;
+
+    .navigation {
+        display: flex;
+
+        .nav-logo,
+        .nav-menu {
+            flex: 0 0 50%;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+        .nav-logo {
+            img {
+                width: 154px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+.homepage-landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .navigation-wrapper {
+        flex: 0 0 auto;
+    }
+
+    .homepage-banner {
+        flex: 1 1 auto;
+    }
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, rgba(154, 255, 229, 1) 0%, rgba(16, 146, 223, 1) 100%);
+        opacity: 0.75;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .banner-wrap {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3005;
+
+        .banner-text {
+            text-align: left;
+            max-width: 590px;
+
+            h1 {
+                font-size: 64px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                margin-bottom: 48px;
+                line-height: 72px;
+                color: #161D5B;
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+                margin-bottom: 84px;
+                color: #000;
+                line-height: 42px;
+                max-width: 480px;
+            }
+        }
+
+        .banner-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 50px;
+        }
+    }
+}
