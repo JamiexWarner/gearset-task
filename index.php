@@ -45,6 +45,7 @@
                     </div>
                 </div>
             </div>
+            <div class="whitebox"></div>
         </section>
     </div>
 
@@ -127,72 +128,74 @@
             <div class="cta-holder">
                 <a href="#learnmore" class="btn blue">Learn more</a>
             </div>
-            <div class="swiper-wrap">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/intercom.svg" alt="">
-                                </div>
-                                <div class="company-text">
-                                    <h4>Intercom</h4>
-                                    <p>Intercom built a reliable Salesforce DevOps process using Gearset and now releases 3-4 times a day</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/veolia.svg" alt="">
-                                </div>
-                                <div class="company-text">
-                                    <h4>Veolia</h4>
-                                    <p>Dramatic DevOps improvements help Veolia UK & IRE to deliver massive Salesforce ROI</p>
+            <div class="arrow-wrap">
+                <div class="swiper-wrap">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/intercom.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>Intercom</h4>
+                                        <p>Intercom built a reliable Salesforce DevOps process using Gearset and now releases 3-4 times a day</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/zillow.svg" alt="">
-                                </div>
-                                <div class="company-text">
-                                    <h4>Zillow</h4>
-                                    <p>Real estate portal Zillow adopted Gearset to speed up deployment times and streamline its releases</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/mckesson.svg" alt="">
-                                </div>
-                                <div class="company-text">
-                                    <h4>McKesson</h4>
-                                    <p>McKesson uses Gearset to push automated changes to production multiple times a week</p>
+                            <div class="swiper-slide">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/veolia.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>Veolia</h4>
+                                        <p>Dramatic DevOps improvements help Veolia UK & IRE to deliver massive Salesforce ROI</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide small">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/landg.svg" alt="">
-                                </div>
-                                <div class="company-text">
-                                    <h4>Legal & General America</h4>
-                                    <p>Gearset provides Legal & General America with certainty for future success</p>
+                            <div class="swiper-slide">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/zillow.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>Zillow</h4>
+                                        <p>Real estate portal Zillow adopted Gearset to speed up deployment times and streamline its releases</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="company-wrap">
-                                <div class="company-logo">
-                                    <img src="/images/Customer-logos/xometry.svg" alt="">
+                            <div class="swiper-slide">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/mckesson.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>McKesson</h4>
+                                        <p>McKesson uses Gearset to push automated changes to production multiple times a week</p>
+                                    </div>
                                 </div>
-                                <div class="company-text">
-                                    <h4>Xometry</h4>
-                                    <p>Xometry built a modern CI/CD pipeline for Salesforce using Gearset</p>
+                            </div>
+                            <div class="swiper-slide small">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/landg.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>Legal & General America</h4>
+                                        <p>Gearset provides Legal & General America with certainty for future success</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="company-wrap">
+                                    <div class="company-logo">
+                                        <img src="/images/Customer-logos/xometry.svg" alt="">
+                                    </div>
+                                    <div class="company-text">
+                                        <h4>Xometry</h4>
+                                        <p>Xometry built a modern CI/CD pipeline for Salesforce using Gearset</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
